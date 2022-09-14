@@ -26,8 +26,9 @@ header {
     display: flex;
     align-items: center;
     height: 70px;
-    background-color: orange;
+    background-color: #ff6900;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    color: white;
 }
 
 header .container {
@@ -128,4 +129,46 @@ img.hover {
 .price.crossed {
     text-decoration: line-through;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+}
+
+footer ul li {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.company {
+    font-weight: 800;
+}
+
 
